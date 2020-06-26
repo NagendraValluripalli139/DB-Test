@@ -30,7 +30,7 @@ public class testDBC {
 System.out.println("result : "+result);
 	            while (result.next()) {
 	                us=result.getString("uname");
-	                pa = result.getString("pass");              
+	                pa = result.getString("pass ");              
 	                System.out.println(us+"  "+pa);
 	            }
 
